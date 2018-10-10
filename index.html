@@ -41,22 +41,23 @@
 <!-- Navigation
     ==========================================-->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
-  <div class="container"> 
+  <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
       <a class="navbar-brand page-scroll" href="#page-top">tvāṣṭra 2k18</a> </div>
-    
+
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about" class="page-scroll">About</a></li>
-       <!-- <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li> -->
         <li><a href="#portfolio" class="page-scroll">Events</a></li>
+        <li><a href="#sponsers" class="page-scroll">Sponsers</a></li>
+        <li><a href="#notif" class="page-scroll">Notifications <span class="badge">3</span> </a></li>
         <li><a href="#call-reservation" class="page-scroll">Contact US</a></li>
       </ul>
     </div>
-    <!-- /.navbar-collapse --> 
+    <!-- /.navbar-collapse -->
   </div>
 </nav>
 <!-- Header -->
@@ -66,14 +67,14 @@
       <div class="container">
         <div class="row">
           <div class="intro-text">
-          
-         
+
+
             <h1>tvāṣṭra</h1>
             <p>B.C.A Techfest,Catholicate College</p>
 
-            
 
-                
+
+
             <!--timer appear here-->
 
             <!-- Display the countdown timer in an element -->
@@ -81,7 +82,7 @@
                     <button class="btn btn-danger disabled"><h5 id="days" style="color:white;"></h5></button>
                     <button class="btn btn-danger disabled"><h5 id="hrs" style="color:white;"></h5></button>
                     <button class="btn btn-danger disabled"><h5 id="mins" style="color:white;"></h5></button>
-                    <button class="btn btn-danger disabled"><h5 id="secs" style="color:white;"></h5></button> 
+                    <button class="btn btn-danger disabled"><h5 id="secs" style="color:white;"></h5></button>
 
                   </div>
 
@@ -113,7 +114,7 @@
                     document.getElementById("mins").innerHTML = minutes + " minutes ";
                     document.getElementById("secs").innerHTML = seconds + " seconds";
 
-                    // If the count down is finished, write some text 
+                    // If the count down is finished, write some text
                     if (distance < 0) {
                       clearInterval(x);
                       document.getElementById("timer").innerHTML = "EXPIRED";
@@ -122,9 +123,9 @@
                   </script>
 
                             <!--timer ends here-->
-               <br>  
+               <br>
             <a href="register.html" class="btn btn-custom btn-lg page-scroll">Register</a> </div>
-          </div> 
+          </div>
         </div>
       </div>
     </div>
@@ -168,7 +169,7 @@
               <li><a href="#" data-filter="*" class="active">All</a></li>
               <li><a href="#" data-filter=".pro">Technical</a></li>
               <li><a href="#" data-filter=".nopro">Non Technical</a></li>
-              <li><a href="#" data-filter=".online">Online</a></li> 
+              <li><a href="#" data-filter=".online">Online</a></li>
             </ol>
           </li>
         </ul>
@@ -300,17 +301,54 @@
     </div>
   </div>
 </div>
-    
+
+<!-- notifications -->
+  <div id="notif" class="container panel panel-danger text-center well">
+    <div class="panel-heading"><h3 class="text-center text-danger">NOTIFICATIONS <span class="badge">3</span></h3></div>
+    <div class="alert alert-warning">
+      <strong>Alert!</strong> Selfie contest will be closed in October 11th, 11:59 pm.
+    </div>
+    <div class="alert alert-warning">
+      <strong>Info!</strong> Registration is from 8:30 - 9:30 am. Rs 150/- per head.
+    </div>
+    <div class="alert alert-warning">
+      <strong>Alert!</strong> Online Registration ends on October 11th, 12:30 pm.
+    </div>
+  </div>
+
+<!-- sponsers -->
+  <div id="sponsers" class="container panel panel-primary text-center well">
+    <div class="panel-heading"><h3 class="text-center" style="color:white;">SPONSERS</h3></div>
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-info"><h5>State Bank of India</h5></li>
+      <li class="list-group-item list-group-item-info"><h5>Infodawn, Pathanamthitta</h5></li>
+      <li class="list-group-item list-group-item-info"><h5>Sky Mobiles, Pathanamthitta</h5></li>
+      <li class="list-group-item list-group-item-info"><h5>J' Mart Arabian Restaurant, Pathanamthitta</h5></li>
+      <li class="list-group-item list-group-item-info"><h5>Chickies The Chip Shop, Pathanamthitta</h5></li>
+      <li class="list-group-item list-group-item-info"><h6>Varsha Assosiation, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>Thompson Bakers, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>Little Bytes, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>Spadow, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>jotun, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>city mobiles, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>Thompson Bakers, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>Linta,karunya and new opticals, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>Blaze Studio, Pathanamthitta</h6></li>
+      <li class="list-group-item list-group-item-info"><h6>Magic World & Malabar Gold, Pathanamthitta</h6></li>
+
+    </ul>
+
+  </div>
+
    <!-- adding a google map -->
-    
     <br>
-<div class="container panel panel-primary">
-    <div class="panel-heading"><h3 class="text-center" style="color:white;">LOCATION</h3></div>
+<div class="container panel panel-success well">
+    <div class="panel-heading"><h3 class="text-center text-success">LOCATION</h3></div>
   <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Catholicate%20College&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">webseite erstellen lassen</a></div><style>.mapouter{text-align:center;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style></div>
 </div>
 <br>
-    
-    <!-- end of google map -->  
+
+    <!-- end of google map -->
 
 <!-- contacts Section -->
 <div id="call-reservation" class="text-center">
@@ -320,7 +358,7 @@
     <p>Email: <strong>tvastra2k18.cath@gmail.com</strong></p>
   </div>
 </div>
-<!-- Contact Section 
+<!-- Contact Section
 <div id="contact" class="text-center">
   <div class="container">
     <div class="section-title text-center">
@@ -354,9 +392,9 @@
     </div>
   </div>
 </div>-->
-    
- 
-    
+
+
+
 <div id="footer">
   <div class="container text-center">
     <div class="col-md-4">
@@ -369,8 +407,8 @@
     <div class="col-md-4">
       <h3>Event Timing</h3>
       <div class="contact-item">
-        <p>Registration: 9:00 AM - 10:00 AM</p>
-        <p>Events: 10:00 AM - 04:00 PM</p>
+        <p>Registration: 8:30 AM - 9:30 AM</p>
+        <p>Events: 9:30 AM - 04:30 PM</p>
       </div>
     </div>
     <div class="col-md-4">
@@ -395,13 +433,13 @@
     </div>
   </div>
 </div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/nivo-lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 
 
